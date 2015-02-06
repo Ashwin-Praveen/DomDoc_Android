@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 import java.io.InputStream;
@@ -26,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
             Document xmlDoc = getDocument();
             TextView printText = (TextView) findViewById(R.id.printText);
             printText.setText(xmlDoc.getDocumentElement().getNodeName());
-            //NodeList listOfShows = xmlDoc.getElementsByTagName("list");
+            NodeList listOfShows = xmlDoc.getElementsByTagName("list");
             //printText.setText("Number of shows: "+listOfShows.getLength());
 
 
