@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shows>
+    <list>
+        <show1 like="yes">How I met your mother</show1>
+    </list>
+    <list>
+        <show2>Arrow</show2>
+    </list>
+    <list>
+        <show3>Friends</show3>
+    </list>
+</shows>
+
