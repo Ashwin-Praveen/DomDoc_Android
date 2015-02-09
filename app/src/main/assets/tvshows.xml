@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<shows>
-    <list>
-        <show1 like="yes">How I met your mother</show1>
-    </list>
-    <list>
-        <show2>Arrow</show2>
-    </list>
-    <list>
-        <show3>Friends</show3>
-    </list>
-</shows>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user>
+        <username id="1">Bob</username>
+        <password id="1">BobNeedsHelpWithxml</password>
+    </user>
+    <user>
+        <username id="2">Ash</username>
+        <password id="2">AshNeedsHelpToo</password>
+    </user>
+</users>

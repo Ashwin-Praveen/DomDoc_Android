@@ -71,9 +71,9 @@
         android:layout_height="wrap_content"
         android:text="@string/button_save"
         android:id="@+id/saveButton"
+        android:background="#ff000000"
+        android:textColor="#ffffffff"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/passwordEdit"
-        android:layout_alignStart="@+id/passwordEdit"
-        android:background="#ff000000"
-        android:textColor="#ffffffff" />
+        android:layout_alignStart="@+id/passwordEdit" />
 </RelativeLayout>
